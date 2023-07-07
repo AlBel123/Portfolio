@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vollkorn+SC:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    .jumbotron{
+      padding: 0px;
+      width: 100%;
+    
+    }
+h3{
+  font-size: 14pt;
+}
+   #container{
+    height:180px;
+    width:100vw;
+   }
+
+   #container-footer{
+    height:180px;
+    width:100vw; 
+   
+   }
+
+   #container-footer>h2, #container-footer>h4, #container-footer>p{
+      position: relative;
+      top: -125%;
+      left: 50%;
+    transform: translate(-50%,-50%);
+    letter-spacing: 0.4rem;
+    color: azure;
+    font-weight: 400;
+
+    }
+   
+
+ 
+    #container-footer>p{
+      top: -100%;
+      font-size: 8pt;
+    }
+
+    
+
+   #container img, #container-footer img{
+
+    width: 100%;
+    margin-top: 0px;
+   }
+
+    #container>h1{
+      position: absolute;
+      top: 25%;
+      left: 50%;
+    transform: translate(-50%,-50%);
+    letter-spacing: 1.2rem;
+    color: rgb(240, 242, 255);
+  font-weight: 700;
+  font-size: 32pt ;
+  -webkit-text-stroke: rgb(41, 76, 232) 1px;
+    }
+
+    #container>h3{
+      position: absolute;
+      top: 34%;
+      left: 50%;
+    transform: translate(-50%,-50%);
+    letter-spacing: 1.2rem;
+    color: azure;
+   
+    }
+
+    #container-edu {
+      display:flex; 
+      padding: 220px 0 80px 0;
+    }
+    
+    .card{
+      
+      width:40vw;
+      
+     
+    }
+    .card-skills{
+     
+      margin-left: 0px;
+    }
+
+    .card-skills>h2{
+    padding-left: 30px;
+  }
+.skills>div>ul>li, .education>ul>li{
+  line-height: 3rem;
+}
+.education>ul>li{
+ margin-bottom: 2rem;
+}
+
+/* .card-skills>h2, .education>h2{
+  padding-bottom: 1.2rem;
+} */
+
+    .skills{
+      display:flex;
+      justify-content:space-evenly;
+      
+  
+    }
+
+    .education{
+      margin-left: 8vw;
+    }
+    ul{
+      padding-left: 0px;
+    }
+    
+    .row{
+      padding-top:60px;
+     
+    }
+
+    h1,h2, h3{
+      font-family: 'Vollkorn SC', serif;
+      
+    }
+    
+    #portfolio-devider{
+      display:flex;
+     justify-content: center;
+      
+    }
+    a>img:hover{
+
+      opacity:70%;
+      border:rgb(41, 76, 232)solid 4px;
+      transition: 1s;
+    }
+
+    #mailto{
+      padding-top: 40px;
+    }
+
+
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <!-- <a class="navbar-brand" href="#">Portfolio</a> -->
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Potfolio</a></li>
+        <li><a href="mailto:clyde20349619@gmail.com">&#9993 Contact me </a></li>
+        
+      </ul>
+
+
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron">
+    <div class="container text-center" id="container">
+    <img src="image/banner.jpg" alt="Sky and Sun">
+    <h1>Web Development</h1>      
+    <h3> Remote Service</h3>
+  </div>
+  
+</div>
+
+<!-- My CV ===========================================================================-->
+<div class="container" id="container-edu">
+
+
+  <div class="card card-skills"><h2>Skills</h2>
+    <div class="skills">
+      <div><ul>
+        <li> HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        <li>Bootstrap</li>
+      </ul></div>
+
+      <div><ul>
+        <li>Responsive Websites</li>
+        <li>Python</li>
+        <li>UI/UX</li>
+        <li>DOM</li>
+      </ul></div>
+
+      <div><ul>
+        <li>Node.js</li>
+        <li>Express.js</li>
+        <li>Git</li>
+        <li>SQL</li>
+      </ul></div>
+
+      <div><ul>
+        <li>React.js</li>
+        <li>MongoDB</li>
+        <li>Web3</li>
+        <li>DApps</li>
+      </ul></div>
+      </div>
+    </div>
+     <div class="card education"><h2 class="title">Education</h2>
+      <ul>
+      <li>2023...2025 - HND in Software Development & Emerging Technologies, Glasgow Clyde College, UK</li>
+      <li>2023 - NQ in Software Development, Glasgow Clyde College, UK</li>
+      </ul>
+      <!-- <p>2006 - Master's Degree in Finance, Dnipro National University, Ukraine</p> -->
+    </div>  
+</div>  
+
+
+
+
+
+
+<!-- Portfolio========================================================================== -->
+<div class="container text-center" style="background-color: #f2f2f2;">    
+  <div id="portfolio-devider">
+    <h2> Some of my Works</h2>
+   </div>
+  <div class="row">
+    <div class="col-sm-8">
+      <a href="https://www.canva.com/design/DAFklhDzU1k/0mLTnI7E_gIBSQYwbEXnXw/view?website#4:welcome"><img src="image/hotel.png" class="img-responsive" style="width:100%" alt="Image"><h3>Beach Hotel </h3><p>Canva</p>
+      </a>
+    </div>
+    <div class="col-sm-4"> 
+      <!-- <a href="https://www.canva.com/design/DAFkmo9jxGk/TqPh91PMif_f17usc-pJDw/view?website#4"><h3>Castle Hotel</h3><p>Canva</p>
+      <img src="image/castle.png" class="img-responsive" style="width:100%" alt="Image"></a> -->
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <!-- <a href="https://www.canva.com/design/DAFklhDzU1k/0mLTnI7E_gIBSQYwbEXnXw/view?website#4:welcome"><h3>Beach Hotel </h3><p>Canva</p>
+      <img src="image/hotel.png" class="img-responsive" style="width:100%" alt="Image"></a> -->
+    </div>
+    <div class="col-sm-8"> 
+      <a href="https://www.canva.com/design/DAFkmo9jxGk/TqPh91PMif_f17usc-pJDw/view?website#4"><img src="image/castle.png" class="img-responsive" style="width:100%" alt="Image"><h3>Castle Hotel</h3><p>Canva</p>
+      </a>
+    </div>
+  </div>
+  </div>
+
+  <div class="container text-center" style="background-color: #f2f2f2;"> 
+    <div class="row"></div>
+      <div class="col-sm-8"> 
+        <a href="mondrian.html"><img src="image/mondrian.png" class="img-responsive" style="width:100%" alt="Image"><h3>Mondrian Project </h3><p> HTML Grid CSS</p>
+        </a>
+      </div>
+      <div class="col-sm-4">
+        
+      </div>
+    
+  
+  <div class="row"></div>
+    <div class="col-sm-4"> 
+      
+    </div>
+    <div class="col-sm-8">
+      <a href="meme.html"><img src="image/meme.png" class="img-responsive" style="width:100%;"  alt="Image"><h3>Motivation Meme </h3><p>HTML CSS</p>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="container text-center" style="background-color: #f2f2f2;">    
+  <div class="row">
+    <div class="col-sm-8">
+      <a href="https://albel123.github.io/CrowfordFarmPark/"><img src="image/cfp.png" class="img-responsive" style="width:100%" alt="Image"><h3>Crowford Farm Park </h3> <p>HTML CSS JS</p>
+      
+        </a>
+    </div>
+    <div class="col-sm-4"> 
+          </div>
+  </div>
+
+
+  <div class="row">
+    <div class="col-sm-4">
+      <!-- <a href="https://albel123.github.io/Move-it/"><h3>Move It! </h3><p> Bootstrap</p>
+      <img src="image/moveit.png" class="img-responsive" style="width:100%" alt="Image"></a> -->
+    </div>
+    <div class="col-sm-8"> 
+      <a href="https://albel123.github.io/TinDog_Website/"><img src="image/tindog.png" class="img-responsive" style="width:100%" alt="Image"><h3>TinDog </h3><p>Bootstrap JS</p>
+      </a>
+    </div>
+  </div>
+
+  <div class="row">
+    <!-- <div class="col-sm-8"> -->
+      <!-- <a href="https://albel123.github.io/CrowfordFarmPark/"><h3>Crowford Farm Park </h3> <p>HTML CSS JS</p>
+      
+        <img src="image/cfp.png" class="img-responsive" style="width:100%" alt="Image"></a> -->
+    </div>
+    <div class="col-sm-8"> 
+      <a href="https://albel123.github.io/Agency_Mediascreen/">    <img src="image/agency.png" class="img-responsive" style="width:100%" alt="Image"><h3>Web Agency </h3><p>HTML CSS Responsive</p>
+  </a>
+    </div>
+  </div>
+
+
+  
+</div>
+  
+<div class="container text-center" style="background-color: #f2f2f2;">    
+ 
+  
+  <div class="row">
+    <div class="col-sm-4">
+      
+    </div>
+    <div class="col-sm-8"> 
+      <a href="https://albel123.github.io/Move-it/"><img src="image/moveit.png" class="img-responsive" style="width:100%" alt="Image"><h3>Move It! </h3><p> Bootstrap</p>
+        </a>
+    </div>
+  </div>
+
+  <div class="row">
+    <!-- <div class="col-sm-8"> -->
+      <!-- <a href="https://albel123.github.io/CrowfordFarmPark/"><h3>Crowford Farm Park </h3> <p>HTML CSS JS</p>
+      
+        <img src="image/cfp.png" class="img-responsive" style="width:100%" alt="Image"></a> -->
+    </div>
+    <div class="col-sm-8"> 
+      <a href="https://albel123.github.io/drumKit/">    <img src="image/drumKit.png" class="img-responsive" style="width:100%" alt="Image"><h3>Drum Kit Party Noiser</h3><p>Javascript</p>
+  </a>
+    </div>
+  </div>
+
+
+  
+</div>
+  
+<div class="container text-center" style="background-color: #f2f2f2;">    
+ 
+  
+  <div class="row">
+    <div class="col-sm-4">
+      
+    </div>
+    <div class="col-sm-8"> 
+      <a href="https://albel123.github.io/SimonGame/"><img src="image/simonGame.png" class="img-responsive" style="width:100%" alt="Image"><h3>Simon Game </h3><p> Javascript</p>
+        </a>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <!-- <div class="col-sm-8"> -->
+      <!-- <a href="https://albel123.github.io/CrowfordFarmPark/"><h3>Crowford Farm Park </h3> <p>HTML CSS JS</p>
+      
+        <img src="image/cfp.png" class="img-responsive" style="width:100%" alt="Image"></a> -->
+    </div>
+    <div class="col-sm-8"> 
+      <a href="https://albel123.github.io/Dicee/">    <img src="image/dicee.png" class="img-responsive" style="width:100%" alt="Image"><h3>Dicee: No need to argue!</h3><p>Javascript</p>
+  </a>
+    </div>
+  </div>
+
+ </div>
+
+
+<br><br>
+
+
+
+<footer>
+  <div>
+    <div class="container text-center" id="container-footer">
+    <img src="image/footer.jpg" alt="Blue Sky">
+    <h2>Contact me</h2>   
+    <h4>and let us agree the site you need!</h4> 
+    <h4 id="mailto"> <a href="mailto:clyde20349619@gmail.com" style="color:azure;">Send email</h4></a>
+    
+    <p> &#169 All Reights Resrved 2023</p>
+  </div>
+</footer>
+
+</body>
+</html>
